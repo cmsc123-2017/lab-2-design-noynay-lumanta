@@ -1,8 +1,9 @@
 class Book {
   Author author;
   String title;
-  int year;  // published
+  int year;  // year of publication
   
+  // CONSTRUCTOR
   Book(Author author, String title, int year) {
     this.author = author;
     this.title = title;
@@ -13,38 +14,45 @@ class Book {
   /*   Fields:
    *     this.author   -- Author
    *     this.title    -- String
+   *     this.year     -- int
    * 
    *   Methods:
-   * 
-   *   Methods of author:
-   *     this.author.equals()  -- boolean
+   *     isSameAuthor(Book that)       -- boolean
+   *     isPublishedBefore(Book that)  -- boolean
+   *
+   *   Methods of Author:
+   *     this.author.equals()          -- boolean
    */
   
+
   // Book -> boolean
   // Returns true if this Book has the same author
-  // as another book
-  boolean sameAuthor(Book that) {    
+  // as that book
+  boolean isSameAuthor(Book that) {    
     return this.author.equals(that.author);
     
     // TEMPLATE
     /*    this.author
-     *    this.title
      * 
      *    that
      *    that.author
-     *    that.title
      */
   }
  
+
   // Book -> boolean
   // Returns true if this Book was published before that book.
-  boolean publishedBefore(Book that) {
+  boolean isPublishedBefore(Book that) {
     if(this.year > that.year){
       return true;
     }else{
       return false;
     }
+    // TEMPLATE
+    /*    this.year
+     * 
+     *    that
+     *    that.year
+     */
   }
-  
-  
 }
