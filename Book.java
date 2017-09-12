@@ -37,7 +37,7 @@ class Book {
   }
  
   // Book -> boolean
-  // returns true if this Book was published before the other 
+  // Returns true if this Book was published before that book.
   boolean publishedBefore(Book that) {
     if(this.year > that.year){
       return true;
