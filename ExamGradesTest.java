@@ -24,6 +24,6 @@ public class ExamGradesTest extends TestCase {
     
     assertEquals(100.0, g.grades[0]);
     assertEquals(91.0, g.grades[9]);
-  }
+  } 
   
 }

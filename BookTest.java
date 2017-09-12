@@ -25,4 +25,5 @@ public class BookTest extends TestCase {
     
     assertEquals(true, secrets.sameAuthor(stone));
   }
+  
 }

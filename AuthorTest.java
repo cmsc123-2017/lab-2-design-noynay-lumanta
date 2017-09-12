@@ -21,4 +21,5 @@ public class AuthorTest extends TestCase {
     assertTrue(rowling2.equals(rowling1));
   }
   
+  
 }

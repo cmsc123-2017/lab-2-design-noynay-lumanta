@@ -56,6 +56,5 @@ class Book {
      *    that.year
      */
   }
-  
-
+   
 }
