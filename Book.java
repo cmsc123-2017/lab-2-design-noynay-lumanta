@@ -36,9 +36,15 @@ class Book {
      */
   }
  
-  
-  // TODO design a function publishedBefore that accepts a Book and
-  //   returns true if this Book was published before the other 
+  // Book -> boolean
+  // Returns true if this Book was published before that book.
+  boolean publishedBefore(Book that) {
+    if(this.year > that.year){
+      return true;
+    }else{
+      return false;
+    }
+  }
   
   
 }
