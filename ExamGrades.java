@@ -1,8 +1,8 @@
 /* xSignature, purpose, stub
  * xExamples
- * Template
- * Body
- * Test and debug
+ * xTemplate
+ * xBody
+ * xTest and debug
  */
 
 class ExamGrades {
